@@ -186,7 +186,7 @@ export default function EnhancedDashboard() {
               </>
             ) : (
               <>
-                <span>🚀</span> Import Jobs
+                <span></span> Import Jobs
               </>
             )}
           </button>

@@ -18,7 +18,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="text-3xl">🚀</div>
+            <div className="text-3xl"></div>
             <div>
               <h1 className="text-xl font-bold text-gray-900">Job Importer</h1>
               <p className="text-xs text-gray-500">Scalable Queue Processing</p>
@@ -44,14 +44,6 @@ export default function Navigation() {
                 </Link>
               );
             })}
-          </div>
-
-          {/* Status Indicator */}
-          <div className="flex items-center gap-3">
-            <div className="flex items-center gap-2 px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">
-              <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-              <span>System Online</span>
-            </div>
           </div>
         </div>
       </div>
